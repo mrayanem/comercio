@@ -13,4 +13,13 @@ public class Produto {
 	// da própria classe.
 	// endende-se por membros (atributos e ou métodos).
 
+	
+	public void setId(Long id) {
+		this.id= id; 
+	}
+	
+	public Long getId() {
+		return id;
+	}
+	
 }
